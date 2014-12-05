@@ -16,15 +16,13 @@
 
 @implementation ChecklistViewController
 
-- (void)highlightButton:(UIButton *)b {
-    if (b.isHighlighted == YES)
-        [b setHighlighted:NO];
-    else
-        [b setHighlighted:YES];
+- (void)selectButton:(UIButton *)b {
+    [b setImage:[UIImage imageNamed:@"oie_transparent (1).png"] forState:UIControlStateSelected | UIControlStateHighlighted];
+    [b setSelected: !b.isSelected];
 }
 
 - (IBAction)onTouchup:(UIButton *)sender {
-    [self performSelector:@selector(highlightButton:) withObject:sender afterDelay:0.0];
+    [self performSelector:@selector(selectButton:) withObject:sender afterDelay:0.0];
 }
 
 - (void)viewDidLoad {

@@ -324,10 +324,7 @@
                                 </state>
                                 <state key="disabled" image="oie_transparent (1).png"/>
                                 <state key="selected" image="oie_transparent (1).png"/>
-                                <state key="highlighted" image="oie_transparent (1).png">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="highlighted" image="oie_transparent (1).png"/>
                                 <connections>
                                     <action selector="onTouchup:" destination="cRO-2Q-l0B" eventType="touchUpInside" id="tT4-pn-Hbo"/>
                                 </connections>
@@ -339,21 +336,6 @@
                                     <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VOS-vT-BvQ">
-                                <rect key="frame" x="16" y="221" width="29" height="33"/>
-                                <state key="normal" image="oie_transparent.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="disabled" image="oie_transparent (1).png"/>
-                                <state key="selected" image="oie_transparent (1).png"/>
-                                <state key="highlighted" image="oie_transparent (1).png">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="onTouchup:" destination="cRO-2Q-l0B" eventType="touchUpInside" id="iJB-Bc-rVE"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1to-aC-taS">
                                 <rect key="frame" x="53" y="255" width="133" height="48"/>
@@ -370,10 +352,7 @@
                                 </state>
                                 <state key="disabled" image="oie_transparent (1).png"/>
                                 <state key="selected" image="oie_transparent (1).png"/>
-                                <state key="highlighted" image="oie_transparent (1).png">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="highlighted" image="oie_transparent (1).png"/>
                                 <connections>
                                     <action selector="onTouchup:" destination="cRO-2Q-l0B" eventType="touchUpInside" id="ynA-xA-FJ1"/>
                                 </connections>
@@ -393,10 +372,7 @@
                                 </state>
                                 <state key="disabled" image="oie_transparent (1).png"/>
                                 <state key="selected" image="oie_transparent (1).png"/>
-                                <state key="highlighted" image="oie_transparent (1).png">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="highlighted" image="oie_transparent (1).png"/>
                                 <connections>
                                     <action selector="onTouchup:" destination="cRO-2Q-l0B" eventType="touchUpInside" id="R1d-bp-7fe"/>
                                 </connections>
@@ -416,10 +392,7 @@
                                 </state>
                                 <state key="disabled" image="oie_transparent (1).png"/>
                                 <state key="selected" image="oie_transparent (1).png"/>
-                                <state key="highlighted" image="oie_transparent (1).png">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="highlighted" image="oie_transparent (1).png"/>
                                 <connections>
                                     <action selector="onTouchup:" destination="cRO-2Q-l0B" eventType="touchUpInside" id="byH-Ta-4US"/>
                                 </connections>
@@ -439,10 +412,7 @@
                                 </state>
                                 <state key="disabled" image="oie_transparent (1).png"/>
                                 <state key="selected" image="oie_transparent (1).png"/>
-                                <state key="highlighted" image="oie_transparent (1).png">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="highlighted" image="oie_transparent (1).png"/>
                                 <connections>
                                     <action selector="onTouchup:" destination="cRO-2Q-l0B" eventType="touchUpInside" id="bF2-Pt-Ere"/>
                                 </connections>
@@ -454,10 +424,7 @@
                                 </state>
                                 <state key="disabled" image="oie_transparent (1).png"/>
                                 <state key="selected" image="oie_transparent (1).png"/>
-                                <state key="highlighted" image="oie_transparent (1).png">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="highlighted" image="oie_transparent (1).png"/>
                                 <connections>
                                     <action selector="onTouchup:" destination="cRO-2Q-l0B" eventType="touchUpInside" id="Vsg-zi-Ca5"/>
                                 </connections>
@@ -485,10 +452,7 @@
                                 </state>
                                 <state key="disabled" image="oie_transparent (1).png"/>
                                 <state key="selected" image="oie_transparent (1).png"/>
-                                <state key="highlighted" image="oie_transparent (1).png">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="highlighted" image="oie_transparent (1).png"/>
                                 <connections>
                                     <action selector="onTouchup:" destination="cRO-2Q-l0B" eventType="touchUpInside" id="Kdf-oX-mlr"/>
                                 </connections>
@@ -508,10 +472,7 @@
                                 </state>
                                 <state key="disabled" image="oie_transparent (1).png"/>
                                 <state key="selected" image="oie_transparent (1).png"/>
-                                <state key="highlighted" image="oie_transparent (1).png">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="highlighted" image="oie_transparent (1).png"/>
                                 <connections>
                                     <action selector="onTouchup:" destination="cRO-2Q-l0B" eventType="touchUpInside" id="ToN-AY-M60"/>
                                 </connections>
@@ -531,10 +492,7 @@
                                 </state>
                                 <state key="disabled" image="oie_transparent (1).png"/>
                                 <state key="selected" image="oie_transparent (1).png"/>
-                                <state key="highlighted" image="oie_transparent (1).png">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="highlighted" image="oie_transparent (1).png"/>
                                 <connections>
                                     <action selector="onTouchup:" destination="cRO-2Q-l0B" eventType="touchUpInside" id="ceE-bN-Gg8"/>
                                 </connections>
@@ -554,10 +512,7 @@
                                 </state>
                                 <state key="disabled" image="oie_transparent (1).png"/>
                                 <state key="selected" image="oie_transparent (1).png"/>
-                                <state key="highlighted" image="oie_transparent (1).png">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="highlighted" image="oie_transparent (1).png"/>
                                 <connections>
                                     <action selector="onTouchup:" destination="cRO-2Q-l0B" eventType="touchUpInside" id="myI-cU-S1y"/>
                                 </connections>
@@ -577,10 +532,7 @@
                                 </state>
                                 <state key="disabled" image="oie_transparent (1).png"/>
                                 <state key="selected" image="oie_transparent (1).png"/>
-                                <state key="highlighted" image="oie_transparent (1).png">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="highlighted" image="oie_transparent (1).png"/>
                                 <connections>
                                     <action selector="onTouchup:" destination="cRO-2Q-l0B" eventType="touchUpInside" id="WRV-kP-AVm"/>
                                 </connections>
@@ -600,10 +552,7 @@
                                 </state>
                                 <state key="disabled" image="oie_transparent (1).png"/>
                                 <state key="selected" image="oie_transparent (1).png"/>
-                                <state key="highlighted" image="oie_transparent (1).png">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="highlighted" image="oie_transparent (1).png"/>
                                 <connections>
                                     <action selector="onTouchup:" destination="cRO-2Q-l0B" eventType="touchUpInside" id="FBN-a9-b5F"/>
                                 </connections>
@@ -623,10 +572,7 @@
                                 </state>
                                 <state key="disabled" image="oie_transparent (1).png"/>
                                 <state key="selected" image="oie_transparent (1).png"/>
-                                <state key="highlighted" image="oie_transparent (1).png">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="highlighted" image="oie_transparent (1).png"/>
                                 <connections>
                                     <action selector="onTouchup:" destination="cRO-2Q-l0B" eventType="touchUpInside" id="h27-I3-eFF"/>
                                 </connections>
@@ -638,10 +584,7 @@
                                 </state>
                                 <state key="disabled" image="oie_transparent (1).png"/>
                                 <state key="selected" image="oie_transparent (1).png"/>
-                                <state key="highlighted" image="oie_transparent (1).png">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="highlighted" image="oie_transparent (1).png"/>
                                 <connections>
                                     <action selector="onTouchup:" destination="cRO-2Q-l0B" eventType="touchUpInside" id="hgl-dm-rkc"/>
                                 </connections>
@@ -661,12 +604,21 @@
                                 </state>
                                 <state key="disabled" image="oie_transparent (1).png"/>
                                 <state key="selected" image="oie_transparent (1).png"/>
-                                <state key="highlighted" image="oie_transparent (1).png">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="highlighted" image="oie_transparent (1).png"/>
                                 <connections>
                                     <action selector="onTouchup:" destination="cRO-2Q-l0B" eventType="touchUpInside" id="ztd-tG-hX2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VOS-vT-BvQ">
+                                <rect key="frame" x="16" y="221" width="29" height="33"/>
+                                <state key="normal" image="oie_transparent.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="disabled" image="oie_transparent (1).png"/>
+                                <state key="selected" image="oie_transparent (1).png"/>
+                                <state key="highlighted" image="oie_transparent (1).png"/>
+                                <connections>
+                                    <action selector="onTouchup:" destination="cRO-2Q-l0B" eventType="touchUpInside" id="iJB-Bc-rVE"/>
                                 </connections>
                             </button>
                         </subviews>
