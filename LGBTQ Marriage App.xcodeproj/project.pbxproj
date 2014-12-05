@@ -22,7 +22,6 @@
 		8DCA383F1A1AC36B007FAFBD /* ChecklistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA383E1A1AC36B007FAFBD /* ChecklistViewController.m */; };
 		8DCA38421A1AC36B007FAFBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DCA38401A1AC36B007FAFBD /* Main.storyboard */; };
 		8DCA38441A1AC36B007FAFBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCA38431A1AC36B007FAFBD /* Images.xcassets */; };
-		8DCA38471A1AC36B007FAFBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DCA38451A1AC36B007FAFBD /* LaunchScreen.xib */; };
 		8DCA38531A1AC36B007FAFBD /* LGBTQ_Marriage_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA38521A1AC36B007FAFBD /* LGBTQ_Marriage_AppTests.m */; };
 		8DCA385F1A1AC382007FAFBD /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA385E1A1AC382007FAFBD /* SWRevealViewController.m */; };
 		8DCA38621A1AC93E007FAFBD /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA38611A1AC93E007FAFBD /* NavigationViewController.m */; };
@@ -61,7 +60,6 @@
 		8DCA383E1A1AC36B007FAFBD /* ChecklistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChecklistViewController.m; sourceTree = "<group>"; };
 		8DCA38411A1AC36B007FAFBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DCA38431A1AC36B007FAFBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8DCA38461A1AC36B007FAFBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8DCA384C1A1AC36B007FAFBD /* LGBTQ Marriage AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LGBTQ Marriage AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCA38511A1AC36B007FAFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DCA38521A1AC36B007FAFBD /* LGBTQ_Marriage_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBTQ_Marriage_AppTests.m; sourceTree = "<group>"; };
@@ -133,7 +131,6 @@
 				8D735C6C1A1B612D0094B903 /* menu_05.png */,
 				8DCA38401A1AC36B007FAFBD /* Main.storyboard */,
 				8DCA38431A1AC36B007FAFBD /* Images.xcassets */,
-				8DCA38451A1AC36B007FAFBD /* LaunchScreen.xib */,
 				8DCA38361A1AC36B007FAFBD /* Supporting Files */,
 			);
 			path = "LGBTQ Marriage App";
@@ -269,7 +266,6 @@
 				8D735C731A1B63DE0094B903 /* oie_transparent (4).png in Resources */,
 				8D95292B1A1B2A8300EC1328 /* 1416316760_editor_list_view_hambuger_menu_-32.png in Resources */,
 				8DCA38641A1ADBA9007FAFBD /* BG7_01.png in Resources */,
-				8DCA38471A1AC36B007FAFBD /* LaunchScreen.xib in Resources */,
 				8DCA38441A1AC36B007FAFBD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,14 +318,6 @@
 				8DCA38411A1AC36B007FAFBD /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8DCA38451A1AC36B007FAFBD /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8DCA38461A1AC36B007FAFBD /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -415,6 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "LGBTQ Marriage App/Info.plist";
@@ -428,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "LGBTQ Marriage App/Info.plist";
