@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8054B2C3-FE74-4D99-BB75-9F86F2D028F3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LGBTQ Marriage App</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F0FC1F6345528E097223FDD9D250B181963BBF0D</key>
+		<string>https://github.com/lazopard/Equally-Wed.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LGBTQ Marriage App.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F0FC1F6345528E097223FDD9D250B181963BBF0D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lazopard/Equally-Wed.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F0FC1F6345528E097223FDD9D250B181963BBF0D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F0FC1F6345528E097223FDD9D250B181963BBF0D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LGBTQ%20Marriage%20App</string>
+		</dict>
+	</array>
+</dict>
+</plist>

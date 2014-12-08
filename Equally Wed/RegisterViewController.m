@@ -8,30 +8,42 @@
 
 #import "RegisterViewController.h"
 
-@interface RegisterViewController ()
+#import "SWRevealViewController.h"
+
+@interface RegistryViewController ()
 
 @end
 
-@implementation RegisterViewController
+@implementation RegistryViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    _barBut.target = self.revealViewController;
+    _barBut.action = @selector(revealToggle:);
+    
+    _budgetBut.target = [self revealViewController];
+    _budgetBut.action = @selector(rightRevealToggle:);
+    
+    self.navigationItem.rightBarButtonItem = _budgetBut;
+    
+    UIGraphicsBeginImageContext(self.view.frame.size);
+    [[UIImage imageNamed:@"BG6_02.png"] drawInRect:self.view.bounds];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    self.view.backgroundColor = [UIColor colorWithPatternImage:image];
+    
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+}
+
+- (IBAction)openWeddingRegistry:(id)sender
+{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.amazon.com/registry/wishlist/2SSRD1PL0Y6W6"]];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

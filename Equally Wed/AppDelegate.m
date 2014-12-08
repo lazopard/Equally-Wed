@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "SWRevealViewController.h"
+#import "RightViewController.h"
 
 @interface AppDelegate ()
 
@@ -14,8 +16,21 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main1"
+                                                             bundle: nil];
+    
+    self.controller = (SWRevealViewController *)[mainStoryboard
+                                                       instantiateViewControllerWithIdentifier: @"revealController"];
+    
+    RightViewController *rightViewController = rightViewController = [[RightViewController alloc] init];
+    
+    self.controller.rightViewController = rightViewController;
+    
+    self.window.rootViewController = self.controller;
+    
     return YES;
 }
 

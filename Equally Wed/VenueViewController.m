@@ -22,6 +22,11 @@
     _barBut.target = self.revealViewController;
     _barBut.action = @selector(revealToggle:);
     
+    _budgetBut.target = [self revealViewController];
+    _budgetBut.action = @selector(rightRevealToggle:);
+    
+    self.navigationItem.rightBarButtonItem = _budgetBut;
+    
     UIGraphicsBeginImageContext(self.view.frame.size);
     [[UIImage imageNamed:@"BG2_01.png"] drawInRect:self.view.bounds];
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
@@ -38,7 +43,6 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

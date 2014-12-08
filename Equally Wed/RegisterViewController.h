@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RegisterViewController : UIViewController
+@interface RegistryViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *barBut;
+
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *budgetBut;
+
+- (IBAction)openWeddingRegistry:(id)sender;
 
 @end

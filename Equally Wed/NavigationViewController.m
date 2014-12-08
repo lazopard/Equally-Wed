@@ -20,7 +20,7 @@ NSArray *menu;
 - (void)viewDidLoad {
     [super viewDidLoad];
     menu = @[@"first", @"second", @"third", @"fourth", @"fifth", @"sixth", @"seventh", @"eighth",
-             @"ninth", @"tenth", @"eleventh", @"twelveth", @"thirteenth"];
+             @"ninth", @"tenth", @"eleventh", @"twelveth"];
     UIImageView *tempImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"BG4_01.png"]];
     [tempImageView setFrame:self.tableView.frame];
     self.tableView.backgroundView = tempImageView;
@@ -29,7 +29,6 @@ NSArray *menu;
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - Table view data source
@@ -39,7 +38,6 @@ NSArray *menu;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-
     return [menu count];
 }
 
@@ -51,7 +49,6 @@ NSArray *menu;
     
     return cell;
 }
-
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
@@ -66,7 +63,6 @@ NSArray *menu;
         };
         
     }
-    
 }
 
 @end

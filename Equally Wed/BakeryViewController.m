@@ -8,6 +8,8 @@
 
 #import "BakeryViewController.h"
 
+#import "SWRevealViewController.h"
+
 @interface BakeryViewController ()
 
 @end
@@ -15,23 +17,32 @@
 @implementation BakeryViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [super viewDidLoad];    
+    _barBut.target = self.revealViewController;
+    _barBut.action = @selector(revealToggle:);
+    
+    _budgetBut.target = [self revealViewController];
+    _budgetBut.action = @selector(rightRevealToggle:);
+    
+    self.navigationItem.rightBarButtonItem = _budgetBut;
+    
+    UIGraphicsBeginImageContext(self.view.frame.size);
+    [[UIImage imageNamed:@"BG5.png"] drawInRect:self.view.bounds];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    self.view.backgroundColor = [UIColor colorWithPatternImage:image];
+    
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+}
+
+- (IBAction)dismissKeyboard:(UITextField *)textField{
+    [textField resignFirstResponder];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

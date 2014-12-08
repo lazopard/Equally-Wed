@@ -6,17 +6,238 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RightViewController">
             <connections>
+                <outlet property="tableView" destination="E1r-3y-U3l" id="meJ-Rq-jzk"/>
                 <outlet property="view" destination="BTn-o3-AwR" id="wVJ-CK-aV1"/>
+                <outletCollection property="numberTextFields" destination="N9G-6R-4W2" id="Sfh-vs-pPw"/>
+                <outletCollection property="numberTextFields" destination="yRZ-JB-wg9" id="aYR-Vd-A8h"/>
+                <outletCollection property="numberTextFields" destination="8fN-iu-0M4" id="Sa2-ae-DeR"/>
+                <outletCollection property="numberTextFields" destination="mWE-vR-4uj" id="A38-iO-aWx"/>
+                <outletCollection property="numberTextFields" destination="eZk-oh-kDG" id="lO2-vj-HCb"/>
+                <outletCollection property="numberTextFields" destination="jVX-2R-o8q" id="QhE-gk-CUn"/>
+                <outletCollection property="numberTextFields" destination="j9l-J5-i8B" id="k5f-zl-ojI"/>
+                <outletCollection property="numberTextFields" destination="COJ-c7-hty" id="IoK-Qi-vq2"/>
+                <outletCollection property="numberTextFields" destination="fqW-tK-eOo" id="h83-Wk-0uL"/>
+                <outletCollection property="numberTextFields" destination="zuy-x3-lg4" id="Rdb-p2-2Tx"/>
+                <outletCollection property="numberTextFields" destination="4DB-Ui-t7L" id="6t9-vP-3j1"/>
+                <outletCollection property="numberTextFields" destination="BOh-2c-gaw" id="I8p-W6-IEA"/>
+                <outletCollection property="numberTextFields" destination="6Bg-yo-S3A" id="Eja-BV-jG4"/>
+                <outletCollection property="numberTextFields" destination="3Z8-ZD-cmQ" id="dvw-j1-T82"/>
+                <outletCollection property="numberTextFields" destination="sMJ-v0-pyL" id="mJw-Gp-TY0"/>
+                <outletCollection property="numberTextFields" destination="h0z-K5-ViV" id="Vf8-16-UAD"/>
+                <outletCollection property="numberTextFields" destination="rnC-T2-0rr" id="YBI-ev-FU8"/>
+                <outletCollection property="numberTextFields" destination="l8T-Q7-bCz" id="aeD-u6-4PZ"/>
+                <outletCollection property="numberTextFields" destination="ASE-dc-Zyv" id="gsg-fP-2iv"/>
+                <outletCollection property="numberTextFields" destination="mz0-qt-rpL" id="bso-u0-b5H"/>
+                <outletCollection property="numberTextFields" destination="4Fz-ff-eLL" id="IYC-7h-8m4"/>
+                <outletCollection property="numberTextFields" destination="4LE-Kk-Dqr" id="vEl-s2-OVg"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="BTn-o3-AwR">
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-            <point key="canvasLocation" x="943" y="411"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Estimate" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ae5-00-7L8">
+                    <rect key="frame" x="189" y="74" width="62" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6U-nq-sgO">
+                    <rect key="frame" x="262" y="74" width="37" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$ " borderStyle="line" placeholder="200" minimumFontSize="17" background="FFFFFF.png" translatesAutoresizingMaskIntoConstraints="NO" id="yRZ-JB-wg9">
+                    <rect key="frame" x="189" y="109" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="-1" eventType="editingDidEnd" id="SjQ-rx-po3"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$ " borderStyle="line" placeholder="200" minimumFontSize="17" background="FFFFFF.png" translatesAutoresizingMaskIntoConstraints="NO" id="N9G-6R-4W2">
+                    <rect key="frame" x="258" y="109" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="-1" eventType="editingDidEnd" id="lej-Rr-sGr"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$ " borderStyle="line" placeholder="200" minimumFontSize="17" background="FFFFFF.png" translatesAutoresizingMaskIntoConstraints="NO" id="8fN-iu-0M4">
+                    <rect key="frame" x="189" y="153" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="-1" eventType="editingDidEnd" id="W88-YK-bm6"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$ " borderStyle="line" placeholder="200" minimumFontSize="17" background="FFFFFF.png" translatesAutoresizingMaskIntoConstraints="NO" id="mWE-vR-4uj">
+                    <rect key="frame" x="258" y="153" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="-1" eventType="editingDidEnd" id="Leo-sA-lOK"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$ " borderStyle="line" placeholder="200" minimumFontSize="17" background="FFFFFF.png" translatesAutoresizingMaskIntoConstraints="NO" id="eZk-oh-kDG">
+                    <rect key="frame" x="189" y="197" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="-1" eventType="editingDidEnd" id="WhX-vl-pcs"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$ " borderStyle="line" placeholder="200" minimumFontSize="17" background="FFFFFF.png" translatesAutoresizingMaskIntoConstraints="NO" id="jVX-2R-o8q">
+                    <rect key="frame" x="258" y="197" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="-1" eventType="editingDidEnd" id="Jlh-20-9PO"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$ " borderStyle="line" placeholder="200" minimumFontSize="17" background="FFFFFF.png" translatesAutoresizingMaskIntoConstraints="NO" id="j9l-J5-i8B">
+                    <rect key="frame" x="189" y="241" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="-1" eventType="editingDidEnd" id="fZh-oy-pPo"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$ " borderStyle="line" placeholder="200" minimumFontSize="17" background="FFFFFF.png" translatesAutoresizingMaskIntoConstraints="NO" id="COJ-c7-hty">
+                    <rect key="frame" x="258" y="241" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="-1" eventType="editingDidEnd" id="2AE-yj-2yl"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$ " borderStyle="line" placeholder="200" minimumFontSize="17" background="FFFFFF.png" translatesAutoresizingMaskIntoConstraints="NO" id="fqW-tK-eOo">
+                    <rect key="frame" x="189" y="284" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="-1" eventType="editingDidEnd" id="oZG-Wi-sg7"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$ " borderStyle="line" placeholder="200" minimumFontSize="17" background="FFFFFF.png" translatesAutoresizingMaskIntoConstraints="NO" id="4DB-Ui-t7L">
+                    <rect key="frame" x="189" y="327" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="-1" eventType="editingDidEnd" id="lAj-r2-VHA"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$ " borderStyle="line" placeholder="200" minimumFontSize="17" background="FFFFFF.png" translatesAutoresizingMaskIntoConstraints="NO" id="BOh-2c-gaw">
+                    <rect key="frame" x="258" y="327" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="-1" eventType="editingDidEnd" id="58W-KE-huA"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$ " borderStyle="line" placeholder="200" minimumFontSize="17" background="FFFFFF.png" translatesAutoresizingMaskIntoConstraints="NO" id="6Bg-yo-S3A">
+                    <rect key="frame" x="189" y="370" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="-1" eventType="editingDidEnd" id="suh-Nf-hH2"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$ " borderStyle="line" placeholder="200" minimumFontSize="17" background="FFFFFF.png" translatesAutoresizingMaskIntoConstraints="NO" id="3Z8-ZD-cmQ">
+                    <rect key="frame" x="258" y="370" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="-1" eventType="editingDidEnd" id="g3w-In-J9V"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$ " borderStyle="line" placeholder="200" minimumFontSize="17" background="FFFFFF.png" translatesAutoresizingMaskIntoConstraints="NO" id="sMJ-v0-pyL">
+                    <rect key="frame" x="189" y="415" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="-1" eventType="editingDidEnd" id="Q4a-Lg-Htc"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$ " borderStyle="line" placeholder="200" minimumFontSize="17" background="FFFFFF.png" translatesAutoresizingMaskIntoConstraints="NO" id="h0z-K5-ViV">
+                    <rect key="frame" x="258" y="415" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="-1" eventType="editingDidEnd" id="ceG-Bg-dhv"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$ " borderStyle="line" placeholder="200" minimumFontSize="17" background="FFFFFF.png" translatesAutoresizingMaskIntoConstraints="NO" id="rnC-T2-0rr">
+                    <rect key="frame" x="189" y="459" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="-1" eventType="editingDidEnd" id="1oR-yX-Yvd"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$ " borderStyle="line" placeholder="200" minimumFontSize="17" background="FFFFFF.png" translatesAutoresizingMaskIntoConstraints="NO" id="l8T-Q7-bCz">
+                    <rect key="frame" x="258" y="459" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="-1" eventType="editingDidEnd" id="KAS-vN-iJv"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$ " borderStyle="line" placeholder="200" minimumFontSize="17" background="FFFFFF.png" translatesAutoresizingMaskIntoConstraints="NO" id="ASE-dc-Zyv">
+                    <rect key="frame" x="189" y="503" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="-1" eventType="editingDidEnd" id="2pY-Jz-6Kp"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$ " borderStyle="line" placeholder="200" minimumFontSize="17" background="FFFFFF.png" translatesAutoresizingMaskIntoConstraints="NO" id="mz0-qt-rpL">
+                    <rect key="frame" x="258" y="503" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="-1" eventType="editingDidEnd" id="mLs-uy-dhW"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$ " borderStyle="line" placeholder="200" minimumFontSize="17" background="FFFFFF.png" translatesAutoresizingMaskIntoConstraints="NO" id="4Fz-ff-eLL">
+                    <rect key="frame" x="189" y="546" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="-1" eventType="editingDidEnd" id="Qnh-tS-tlF"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$ " borderStyle="line" placeholder="200" minimumFontSize="17" background="FFFFFF.png" translatesAutoresizingMaskIntoConstraints="NO" id="4LE-Kk-Dqr">
+                    <rect key="frame" x="258" y="546" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="-1" eventType="editingDidEnd" id="0Xh-2f-Tz9"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$ " borderStyle="line" placeholder="200" minimumFontSize="17" background="FFFFFF.png" translatesAutoresizingMaskIntoConstraints="NO" id="zuy-x3-lg4">
+                    <rect key="frame" x="258" y="284" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="-1" eventType="editingDidEnd" id="OLl-Jx-j1D"/>
+                    </connections>
+                </textField>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="E1r-3y-U3l">
+                    <rect key="frame" x="0.0" y="8" width="181" height="568"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="separatorColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="1100" y="276"/>
         </view>
     </objects>
+    <resources>
+        <image name="FFFFFF.png" width="480" height="480"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

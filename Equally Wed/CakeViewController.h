@@ -10,4 +10,8 @@
 
 @interface CakeViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *barBut;
+
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *budgetBut;
+
 @end

@@ -1,0 +1,13 @@
+Due Thursday:
+
+1) Change backgrounds to venue background
+2) Add + button
+3) Keep symbol I found
+4) change yellow to label color, and label to black
+5) Change gaund to gawn
+   //If Facebook login is hard -> delete circle
+   //White dot on selected
+6) Done doesn’t work on business fields
+7) Add simple calendar
+8) Link budget table to fields
+9) Fix description -> text fields with next button on keyboard
