@@ -1,0 +1,138 @@
+
+/* Class = "IBUIButton"; normalTitle = "Photographer"; ObjectID = "1to-aC-taS"; */
+"1to-aC-taS.normalTitle" = "Photographer";
+
+/* Class = "IBUILabel"; text = "Address:"; ObjectID = "2JJ-PS-7W5"; */
+"2JJ-PS-7W5.text" = "Address:";
+
+/* Class = "IBUITextField"; placeholder = "123 South Shore Dr."; ObjectID = "2Pt-Jo-J1S"; */
+"2Pt-Jo-J1S.placeholder" = "123 South Shore Dr.";
+
+/* Class = "IBUITextField"; placeholder = "Weddings Inc."; ObjectID = "2Zl-NG-24b"; */
+"2Zl-NG-24b.placeholder" = "Weddings Inc.";
+
+/* Class = "IBUILabel"; text = "Checklist"; ObjectID = "2c3-4G-PVF"; */
+"2c3-4G-PVF.text" = "Checklist";
+
+/* Class = "IBUIButton"; normalTitle = "Rings"; ObjectID = "39t-2n-yZk"; */
+"39t-2n-yZk.normalTitle" = "Rings";
+
+/* Class = "IBUINavigationItem"; title = "Venue"; ObjectID = "3Sk-7Q-w0d"; */
+"3Sk-7Q-w0d.title" = "Venue";
+
+/* Class = "IBUILabel"; text = "Cake"; ObjectID = "4uW-fL-uyX"; */
+"4uW-fL-uyX.text" = "Cake";
+
+/* Class = "IBUILabel"; text = "Officiant"; ObjectID = "6mx-yq-d8c"; */
+"6mx-yq-d8c.text" = "Officiant";
+
+/* Class = "IBUITextField"; placeholder = "08/02/2015"; ObjectID = "92m-Je-ZQv"; */
+"92m-Je-ZQv.placeholder" = "08/02/2015";
+
+/* Class = "IBUILabel"; text = "Date Promised:"; ObjectID = "9ir-5o-lra"; */
+"9ir-5o-lra.text" = "Date Promised:";
+
+/* Class = "IBUILabel"; text = "Favors"; ObjectID = "EbY-3y-Nv7"; */
+"EbY-3y-Nv7.text" = "Favors";
+
+/* Class = "IBUILabel"; text = "Gaund"; ObjectID = "Fyj-tW-5Mc"; */
+"Fyj-tW-5Mc.text" = "Gaund";
+
+/* Class = "IBUILabel"; text = "Florist"; ObjectID = "H7T-WI-EvI"; */
+"H7T-WI-EvI.text" = "Florist";
+
+/* Class = "IBUILabel"; text = "Budget"; ObjectID = "Irg-ZY-rHj"; */
+"Irg-ZY-rHj.text" = "Budget";
+
+/* Class = "IBUITextField"; placeholder = "08/02/2015"; ObjectID = "IsZ-PQ-pxo"; */
+"IsZ-PQ-pxo.placeholder" = "08/02/2015";
+
+/* Class = "IBUIButton"; normalTitle = "Vows"; ObjectID = "JMR-yS-IBj"; */
+"JMR-yS-IBj.normalTitle" = "Vows";
+
+/* Class = "IBUIButton"; normalTitle = "Budget"; ObjectID = "ONq-PQ-srV"; */
+"ONq-PQ-srV.normalTitle" = "Budget";
+
+/* Class = "IBUIButton"; normalTitle = "Venue"; ObjectID = "R0N-nP-wBx"; */
+"R0N-nP-wBx.normalTitle" = "Venue";
+
+/* Class = "IBUIButton"; normalTitle = "License"; ObjectID = "UBt-kA-pTZ"; */
+"UBt-kA-pTZ.normalTitle" = "License";
+
+/* Class = "IBUILabel"; text = "Date Ordered:"; ObjectID = "Wqh-oy-uGA"; */
+"Wqh-oy-uGA.text" = "Date Ordered:";
+
+/* Class = "IBUIButton"; normalTitle = "Favors"; ObjectID = "WtC-hg-5Wl"; */
+"WtC-hg-5Wl.normalTitle" = "Favors";
+
+/* Class = "IBUIViewController"; title = "Equally Wed"; ObjectID = "cRO-2Q-l0B"; */
+"cRO-2Q-l0B.title" = "Equally Wed";
+
+/* Class = "IBUITextField"; placeholder = "111-234567"; ObjectID = "eTB-wB-i5O"; */
+"eTB-wB-i5O.placeholder" = "111-234567";
+
+/* Class = "IBUITextField"; placeholder = "Bob Hope"; ObjectID = "fvS-Ds-jxg"; */
+"fvS-Ds-jxg.placeholder" = "Bob Hope";
+
+/* Class = "IBUILabel"; text = "Florist"; ObjectID = "ge7-5p-R20"; */
+"ge7-5p-R20.text" = "Florist";
+
+/* Class = "IBUINavigationItem"; title = "Equally Wed"; ObjectID = "jLs-0v-Hmw"; */
+"jLs-0v-Hmw.title" = "Equally Wed";
+
+/* Class = "IBUIButton"; normalTitle = "Invitations"; ObjectID = "jd3-h1-7s1"; */
+"jd3-h1-7s1.normalTitle" = "Invitations";
+
+/* Class = "IBUIButton"; normalTitle = "Cake"; ObjectID = "kFQ-Rc-5Oz"; */
+"kFQ-Rc-5Oz.normalTitle" = "Cake";
+
+/* Class = "IBUIButton"; normalTitle = "Florist"; ObjectID = "ksh-7l-cUY"; */
+"ksh-7l-cUY.normalTitle" = "Florist";
+
+/* Class = "IBUILabel"; text = "Business:"; ObjectID = "nDF-fG-sps"; */
+"nDF-fG-sps.text" = "Business:";
+
+/* Class = "IBUILabel"; text = "Phone:"; ObjectID = "nl9-po-KTH"; */
+"nl9-po-KTH.text" = "Phone:";
+
+/* Class = "IBUIButton"; normalTitle = "Honeymoon"; ObjectID = "nmF-Tn-5UA"; */
+"nmF-Tn-5UA.normalTitle" = "Honeymoon";
+
+/* Class = "IBUILabel"; text = "Register"; ObjectID = "omR-xd-yOU"; */
+"omR-xd-yOU.text" = "Register";
+
+/* Class = "IBUILabel"; text = "Entertainment"; ObjectID = "q6h-nA-YvY"; */
+"q6h-nA-YvY.text" = "Entertainment";
+
+/* Class = "IBUILabel"; text = "Description:"; ObjectID = "s05-Y1-4HN"; */
+"s05-Y1-4HN.text" = "Description:";
+
+/* Class = "IBUILabel"; text = "Checklist:"; ObjectID = "s60-xL-kal"; */
+"s60-xL-kal.text" = "Checklist:";
+
+/* Class = "IBUILabel"; text = "Photographer"; ObjectID = "tar-Ec-3gC"; */
+"tar-Ec-3gC.text" = "Photographer";
+
+/* Class = "IBUILabel"; text = "Venue"; ObjectID = "u0e-m5-tXP"; */
+"u0e-m5-tXP.text" = "Venue";
+
+/* Class = "IBUIButton"; normalTitle = "Rehearsal"; ObjectID = "vy8-7K-k1h"; */
+"vy8-7K-k1h.normalTitle" = "Rehearsal";
+
+/* Class = "IBUIButton"; normalTitle = "Entertainment"; ObjectID = "xCO-b9-2ai"; */
+"xCO-b9-2ai.normalTitle" = "Entertainment";
+
+/* Class = "IBUILabel"; text = "Sales Associate:"; ObjectID = "xIP-JI-aQD"; */
+"xIP-JI-aQD.text" = "Sales Associate:";
+
+/* Class = "IBUILabel"; text = "Rings"; ObjectID = "xaM-4c-r14"; */
+"xaM-4c-r14.text" = "Rings";
+
+/* Class = "IBUIButton"; normalTitle = "Officiant"; ObjectID = "yhx-xr-92F"; */
+"yhx-xr-92F.normalTitle" = "Officiant";
+
+/* Class = "IBUIButton"; normalTitle = "Gaund"; ObjectID = "ype-va-wDw"; */
+"ype-va-wDw.normalTitle" = "Gaund";
+
+/* Class = "IBUIButton"; normalTitle = "Register"; ObjectID = "zoP-ut-fgS"; */
+"zoP-ut-fgS.normalTitle" = "Register";
